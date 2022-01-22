@@ -27,3 +27,38 @@
 // }
 // console.log(ages(10))
 // <------------------------------------------------------------------------------->
+
+
+
+//Task 3
+//Create a function which returns the number of true values there are in an array.
+//countTrue([true, false, false, true, false]) ➞ 2
+//countTrue([false, false, false, false]) ➞ 0
+//countTrue([]) ➞ 0
+
+//Solution 1:
+// function check(array) {
+//     var times = 0;
+//     for(var i = 0; i<array.length; i++) {
+//         if(array[i] === true) {
+//             times++  
+//         }
+//     }
+//     return times;
+// }
+
+// console.log(check([false, false, false, false]))
+
+//Solution 1:
+
+// const countTrue = r => r.filter(Boolean).length
+// console.log(countTrue([true, false, false, true, false]))
+
+let words = ['spray','hii', 'limit', 'exuberant', 'destruction']
+
+const modifiedWords = words.filter( (words, index, arr) => {
+    arr[index+1] += ' extra'
+    return words.length < 6
+})
+
+console.log(modifiedWords)
