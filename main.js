@@ -7,12 +7,23 @@
 // addUp(13) ➞ 91
 // addUp(600) ➞ 180300
 
-function sum (n) {
 
-    let sumNum = 0;
-    for(let i = 0; i<=n; i++) {
-        sumNum += i;
-    }
-    return sumNum;
-}
-sum(5)
+// solution:
+// function sum (n) {
+
+//     let sumNum = 0;
+//     for(let i = 0; i<=n; i++) {
+//         sumNum += i;
+//     }
+//     return sumNum;
+// }
+// console.log(sum(5))
+// <------------------------------------------------------------------------------->
+// task 2:
+// Create a function that takes the age in years and returns the age in days.
+
+// function ages(num) {
+//     return(num * 365)
+// }
+// console.log(ages(10))
+// <------------------------------------------------------------------------------->
