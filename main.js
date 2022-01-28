@@ -54,11 +54,27 @@
 // const countTrue = r => r.filter(Boolean).length
 // console.log(countTrue([true, false, false, true, false]))
 
-let words = ['spray','hii', 'limit', 'exuberant', 'destruction']
+// let words = ['spray','hii', 'limit', 'exuberant', 'destruction']
 
-const modifiedWords = words.filter( (words, index, arr) => {
-    arr[index+1] += ' extra'
-    return words.length < 6
-})
+// const modifiedWords = words.filter( (words, index, arr) => {
+//     arr[index+1] += ' extra'
+//     return words.length < 6
+// })
 
-console.log(modifiedWords)
+// console.log(modifiedWords)
+// <------------------------------------------------------------------------------->
+// Create a function that concatenates n input arrays, where n is variable.
+
+// Examples
+// concat([1, 2, 3], [4, 5], [6, 7]) ➞ [1, 2, 3, 4, 5, 6, 7]
+
+// concat([1], [2], [3], [4], [5], [6], [7]) ➞ [1, 2, 3, 4, 5, 6, 7]
+
+// concat([1, 2], [3, 4]) ➞ [1, 2, 3, 4]
+
+// concat([4, 4, 4, 4, 4]) ➞ [4, 4, 4, 4, 4]
+// Solution:
+
+// function concat(...args) {
+// 	return [].concat(...args)
+// }
