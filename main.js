@@ -144,3 +144,18 @@
 // function cubes(a) {
 // 	return a ** 3
 // }
+//<------------------------------------------------------------------------------->
+//task 8
+// Write a function that converts hours into seconds.
+
+// Examples
+// howManySeconds(2) ➞ 7200
+
+// howManySeconds(10) ➞ 36000
+
+// howManySeconds(24) ➞ 86400
+
+// function second (a) {
+//     return a * 60 * 60
+// }
+// console.log(second(1))
