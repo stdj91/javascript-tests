@@ -204,3 +204,23 @@
 //     else if (i % 5 == 0) console.log("Buzz");
 //     else console.log(i);
 // }
+//<------------------------------------------------------------------------------->
+//task 11
+
+//Coding challenge: Calculate the sum of numbers in an array of numbers
+
+// function sumArray(ar)
+// {
+//     var sum = 0;
+
+//     for(var i = 0; i < ar.length; i++)
+//     {
+//         sum += ar[i];
+//     }
+
+//     return sum;
+// }
+
+// var ar = [2, 3, -1, 5, 7, 9, 10, 15, 95];
+// var sum = sumArray(ar);
+// println(sum);
