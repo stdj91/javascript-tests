@@ -326,3 +326,20 @@
 // println(9, " is prime? ", isPrime(9));
 //<------------------------------------------------------------------------------->
 //task 17
+//Coding challenge: Calculate the sum of digits of a positive integer number
+// function sumDigits(n)
+// {
+//     var s = n.toString();
+//     var sum = 0;
+
+//     for(var char of s)
+//     {
+//         var digit = parseInt(char);
+//         sum += digit;
+//     }
+
+//     return sum;
+// }
+
+// var sum = sumDigits(1235231);
+// println("Sum: ", sum);
