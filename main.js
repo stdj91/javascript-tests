@@ -343,3 +343,19 @@
 
 // var sum = sumDigits(1235231);
 // println("Sum: ", sum);
+//Coding challenge: Reverse a string
+// var s = reverseString("JavaScript");
+// println(s);
+
+// function reverseString(s)
+// {
+//     var s2 = "";
+    
+//     for(var i = s.length - 1; i >= 0; i--)
+//     {
+//         var char = s[i];
+//         s2 += char;
+//     }
+    
+//     return s2;
+// }
