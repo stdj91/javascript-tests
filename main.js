@@ -362,7 +362,7 @@
 
 
 //<------------------------------------------------------------------------------->
-//task 17
+//task 18
 //Create a function that will return an array with words inside a text
 // var text = "Create a function, that will return an array (of string), with the words inside the text";
 
@@ -398,4 +398,16 @@
 // {
 //     var separators = [" ", "\t", "\n", "\r", ",", ";", ".", "!", "?", "(", ")"];
 //     return separators.includes(c);
+// }
+//<------------------------------------------------------------------------------->
+//task 19
+//Coding challenge: Rotate an array to the left 1 position
+// var ar = [1, 2, 3];
+// rotateLeft(ar);
+// println(ar);
+
+// function rotateLeft(ar)
+// {
+//     var first = ar.shift();
+//     ar.push(first);
 // }
